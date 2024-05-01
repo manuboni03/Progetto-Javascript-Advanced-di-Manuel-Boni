@@ -35,6 +35,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'App Libri',
             filename: 'index.html',
+            template: 'src/template.html',
         }),
     ],
 }
